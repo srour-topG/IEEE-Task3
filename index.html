@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <main style="padding: 30px;margin: 20px;">
+
+        <header>
+            <h1 style="color: red; text-align: center; margin-bottom: 50px;">Task 2</h1>
+        </header>
+        
+        <section>
+            <table border="1" style="width: 100%;">
+                    <tr>
+                        <td style="width: 22.5%;">
+                            <p>This is paragraph one</p>
+                            <p>This is paragraph two</p>
+                        </td>
+                        <td style="width: 22.5%;">
+                            <img src="/sources/photos/no wallpaper.jpg" alt="wallpaper" width="100%">
+                        </td>
+                        <td style="width: 22.5%;">
+                            <iframe src="https://comicvine.gamespot.com/forums/battles-7/gon-vs-killua-2117229/" frameborder="0" width="100%"></iframe>
+                        </td>
+                        <td rowspan="2" style="width: 22.5%;">
+                             <video poster="/sources/photos/telk kadeya.png" src="/sources/video/Cairokee - Telk Qadeya  كايروكي - تلك قضية.mp4" controls width="100%"></video> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><audio src="/sources/audio/حل الليل .. وسكنت الاصوات.mp3" controls></audio></td>
+                    </tr>
+            </table>
+        </section>
+
+        <hr>
+        <br>
+
+
+        <section>
+
+            <form action="page2.html">
+                
+                <!-- First Name -->
+                <label for="first-name">First name</label>
+                <input type="text" name="FirstName" id="first-name" required placeholder="Enter your first name...">                
+                <br><br>
+                
+                <!-- Last Name -->
+                <label for="last-name">Last name</label>
+                <input type="text" name="LastName" id="last-name" required placeholder="Enter your last name...">                
+                <br><br>
+                
+                <!-- Password -->
+                <label for="first-name">Password</label>
+                <input type="password" name="FirstName" id="first-name" required placeholder="Enter your password...">                
+                <br><br>
+                
+                <!-- Repeat Password -->
+                <label for="first-name">Password again</label>
+                <input type="password" name="FirstName" id="first-name" required placeholder="Repeat your password...">                
+                <br><br>
+                
+                <!-- Choose File -->
+                <label for="file">Choose file</label>
+                <input type="file" name="file" id="file">
+                <br><br>
+                
+                <!-- Gender -->
+                 <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" name="gender" id="male"  value="male">
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" name="gender" id="female"  value="female">
+                    <label for="female">Female</label>
+                 </fieldset>
+                <br>
+                 <!-- Faculty -->
+                <label for="faculty">Faculty:</label>
+                <select id="faculty" name="faculty" required>
+                    <option value="engineering">Engineering</option>
+                    <option value="artificial-intelligence">Artificial Intelligence</option>
+                    <option value="computer-science">Computer Science</option>
+                    <option value="arts">Arts</option>
+                    <option value="science">Science</option>
+                    <option value="business">Business</option>
+                </select>
+                <br><br>
+
+                <!-- interested -->
+                <fieldset>
+                    <legend>Interested</legend>
+                    <input type="checkbox" name="interested" id="Football"  value="Football">
+                    <label for="interested">Football</label>
+                    <br>
+                    <input type="checkbox" name="interested" id="Basketball" value="Basketball">
+                    <label for="interested">Basketball</label>
+                    <br>
+                    <input type="checkbox" name="interested" id="Volleyball" value="Volleyball">
+                    <label for="interested">Volleyball</label>
+                    <br>
+                    <input type="checkbox" name="interested" id="Parkour" value="Parkour">
+                    <label for="interested">Parkour</label>
+                    <br>
+                    <input type="checkbox" name="interested" id="Kickboxing" value="Kickboxing">
+                    <label for="interested">Kickboxing</label>
+                </fieldset>
+                <br><br>
+
+                <!-- About Me -->
+                <label for="about">About Me</label>
+                <textarea id="about" name="about" rows="5" cols="35"></textarea>
+                <br><br>
+                <br>
+
+
+                <!-- Buttons -->
+                 <input type="submit">
+                 <input type="reset">
+
+            </form>
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
